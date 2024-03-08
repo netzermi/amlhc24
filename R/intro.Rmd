@@ -1,0 +1,19 @@
+---
+title: "R Notebook"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+# Variables
+Examples for **variables**.
+	[Google](https://www.google.com)
+
+```{r}
+  #define a variable
+  x <- 3
+  print(x)
+```
+
+
+
