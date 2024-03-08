@@ -5,15 +5,37 @@ output:
   html_notebook: default
 ---
 
-# Variables
-Examples for **variables**.
-	[Google](https://www.google.com)
+# Basics
 
+## Variables
+Examples for **variables**.
 ```{r}
   #define a variable
   x <- 3
   print(x)
 ```
+## Arrays/Lists
+
+```{r}
+  x <- c(3,5,1)
+  print(x[1])
+```
+## Functions
+Functions are an easy way to reuse code. 
+```{r}
+  
+  sayBye <- function(name){
+    print(paste("Hello", name))
+  }
+
+```
+
+Now we use the function
+```{r}
+  sayBye("NEMI")
+```
+
+
 
 
 
